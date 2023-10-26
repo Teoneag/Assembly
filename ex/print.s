@@ -10,7 +10,8 @@ main:
 
     # print
     mov $helloS, %rdi
-    mov $69, %rsi
+    mov $-9223372036854775808, %rsi
+    mov $0, %rax
     call printf
 
     # prolog
